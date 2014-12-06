@@ -1,0 +1,46 @@
+[
+  {
+    "name": "player",
+    "sprite": "player",
+    "aiType": "generic-npc",
+    "bbox": {
+      "x": 8,
+      "y": 0,
+      "w": 15,
+      "h": 24
+    }
+  },
+  {
+    "name": "knight",
+    "sprite": "knight",
+    "aiType": "generic-npc",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "name": "text",
+    "sprite": "null",
+    "aiType": "dummy",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    }
+  },
+  {
+    "name": "snowman",
+    "sprite": "snowman",
+    "aiType": "dummy",
+    "bbox": {
+      "x": 15,
+      "y": 0,
+      "w": 29,
+      "h": 56
+    }
+  }
+]

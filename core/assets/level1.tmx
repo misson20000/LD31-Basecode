@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="girder" tilewidth="16" tileheight="16">
+  <image source="tiles/girder.png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="2" name="simpledirt" tilewidth="16" tileheight="16">
+  <image source="tiles/simpledirt.png" width="96" height="96"/>
+  <tile id="9">
+   <properties>
+    <property name="nocollide" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="nocollide" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="slopeLeft" value="15"/>
+    <property name="slopeRight" value="8"/>
+    <property name="slopeSide" value="top"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="slopeLeft" value="7"/>
+    <property name="slopeRight" value="0"/>
+    <property name="slopeSide" value="top"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="slopeLeft" value="0"/>
+    <property name="slopeRight" value="7"/>
+    <property name="slopeSide" value="top"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="slopeLeft" value="8"/>
+    <property name="slopeRight" value="15"/>
+    <property name="slopeSide" value="top"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="slopeLeft" value="0"/>
+    <property name="slopeRight" value="7"/>
+    <property name="slopeSide" value="bottom"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="slope" value="floorForward2"/>
+    <property name="slopeLeft" value="8"/>
+    <property name="slopeRight" value="15"/>
+    <property name="slopeSide" value="bottom"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="slope" value="floor"/>
+    <property name="slopeLeft" value="15"/>
+    <property name="slopeRight" value="8"/>
+    <property name="slopeSide" value="bottom"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="slopeLeft" value="7"/>
+    <property name="slopeRight" value="0"/>
+    <property name="slopeSide" value="bottom"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="38" name="dirtbg" tilewidth="16" tileheight="16">
+  <image source="tiles/dirtbg.png" width="96" height="48"/>
+ </tileset>
+ <layer name="bg" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RoQ0AIBAEwe8HMPRfHAgMCgWPmEnWX3IRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGc1ewCbPivZIwCAK9qKf/jkL/4AAAAAAAAAAAAA4IUBQuYks0CcAAA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bwU6DQBhFYYyL2o1udKfv/5q2C2JtGAbaAe69c75koosmVo7/UGgdBi9vl3UOXm7ooYUeWuihhR5a6KGFHlrooYUeWuih5f2yTsPxx40ef5JnxBE9tNBDCz200EMLPbTQQws9tCRfE7pKnRFX9DjGS2Gl7lmKSg3uV+KMOKOHlsQ9y13ajLijhxZ6HCv9NZar1OuQBEkzkoAeWpL2rBQpM+Kidi8rZUaSJMxIEnpoSdiz0rjPiKvU96jSuO9ZiZxnJBE9tDjvWe7Szusp6KHNdc9K5jgjCUq/Dz3aW/K50fPdV+dzSALmwwM9tDi+xkrnNiPp6HGMlM859MBpRnrgNCO9cJkRZ0v/79PpPNIThxnpCT2O47pn9Ua9SY+uTT4GzS6Y93lZX0Nuj6N//qP26rKntc9DsV0vPaaey9HPd8rWc7KnFj0Umlxt1WVPST1GrbusuQeUvK6vgV8n1vdl/Szo4jgfKua6lO6p1Lq0mhP8V7tWrHWhxzZq91VKe9mzc9Kj1u+ZzM0MPdpac/+xhB5trbn/WEKP9pZ2mUOP9ZacV2pd5tBjG892GR54POrGLuO67bMEPaa1vPcytqlhPvbDfqWldHzPd9/TYx+l4zt1nqHH9mrH+PY8c6o8Fm0sPcZjG2yLv3ktnBf00EMLPbSwZ+mhiR6u+zTRRRPvRwHr/AI2gm2EQJwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object x="800" y="1136" width="16" height="16">
+   <properties>
+    <property name="id" value="knight"/>
+    <property name="type" value="player"/>
+   </properties>
+  </object>
+  <object x="624" y="1024" width="64" height="64">
+   <properties>
+    <property name="id" value="snowman1"/>
+    <property name="type" value="snowman"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

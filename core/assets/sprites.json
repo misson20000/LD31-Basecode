@@ -1,0 +1,20 @@
+[
+  {
+    "path": "sprites/quagmire.png",
+    "name": "player",
+    "frames": "autogen",
+    "size": 32
+  },
+  {
+    "path": "sprites/knight.png",
+    "name": "knight",
+    "frames": "autogen",
+    "size": 32
+  },
+  {
+    "path": "sprites/snowman.png",
+    "name": "snowman",
+    "frames": "fullimg",
+    "size": 64
+  }
+]

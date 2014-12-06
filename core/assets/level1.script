@@ -1,0 +1,17 @@
+level.onload {
+knight.jump;
+knight.walk 1000;
+knight.jump;
+time.sleep 500;
+knight.jump;
+level.text text1 1000 600 Hello, World;
+}
+
+snowman1.range enter 300 {
+level.text snowman1text 424 500 What the heck is this thing supposed to be?;
+snowman1text.float in
+}
+snowman1.range exit 300 {
+snowman1text.float out;
+snowman1text.delete
+}
